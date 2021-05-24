@@ -34,10 +34,6 @@
         font-size: 3rem;
     }
 
-    // &__description {
-    //     font-size: 2rem;
-    // }
-
     &:hover &__icon-box {
         background-color: $color-primary;
         transform: scale(1.05);
@@ -46,5 +42,33 @@
 
     &:hover &__icon {
         color: $color-text-1;
+    }
+}
+
+.card-services {
+    padding: 3rem;
+    flex-basis: 50%;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__icon-box {
+        align-self: flex-start;
+        flex-basis: 9rem;
+        height: 9rem;
+        border-radius: 50%;
+        display: flex;
+        background-color: $color-white;
+    }
+
+    &__icon {
+        font-size: 3.5rem;
+        color: $color-primary;
+    }
+
+    &__text-box {
+        flex-basis: 80%;
     }
 }

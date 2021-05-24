@@ -1,5 +1,6 @@
 .section-about {
     display: flex;
+    padding-top: 8rem;
 
     &__container {
         width: 100%;
@@ -21,9 +22,23 @@
     &__btn-box {
         text-align: center;
     }
+}
 
-    // &__skill-box {
+.section-services {
+    display: flex;
+    background-color: $color-secondary;
 
-    // }
+    &__container {
+        max-width: 130rem;
+        margin: 0 auto;
+    }
 
+    &__text-box {
+        text-align: center;
+    }
+
+    &__cards-box {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

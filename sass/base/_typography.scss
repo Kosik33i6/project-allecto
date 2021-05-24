@@ -43,9 +43,11 @@ html {
 .heading-tertiary {
     font-size: 4.5rem;
     font-weight: 400;
+    color: $color-text-2;
 }
 
 .description {
     font-size: 2rem;
     color: $color-text-2;
+    line-height: 1.8;
 }
