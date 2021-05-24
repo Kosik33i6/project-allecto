@@ -1,0 +1,12 @@
+.logo {
+    display: inline-block;
+
+    &__text {
+        font-size: 3rem;
+        font-weight: 500;
+    }
+
+    &__color {
+        color: $color-primary;
+    }
+}
