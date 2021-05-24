@@ -1,0 +1,6 @@
+.header {
+    height: 100vh;
+    display: flex;
+    background-image: linear-gradient(to right, rgba($color-black, .4), rgba($color-black, .4)), url('../images/hero.png');
+    background-size: cover;
+}
