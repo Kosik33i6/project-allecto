@@ -5,9 +5,12 @@
     color: #fff;
     height: 7rem;
 
-    &__logo-box {}
+    &__logo-box {
+        flex-basis: 30%;
+    }
 
     &__list-item-box {
+        flex-basis: 70%;
         margin-left: auto;
         padding-right: 5rem;
     }
@@ -17,14 +20,20 @@
         display: flex;
     }
 
-    &__item {}
+    &__item {
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+    }
 
     &__link {
         display: inline-block;
         padding: 1.5rem 3.5rem;
-        font-size: 2rem;
+        font-size: 1.7rem;
         text-decoration: none;
         text-transform: uppercase;
+        font-weight: 600;
+        color: $color-text-1;
     }
 
 }
