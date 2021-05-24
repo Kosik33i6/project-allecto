@@ -6,13 +6,16 @@
     }
 
     &__row {
-        max-width: 114rem;
-        background-color: red;
+        max-width: 130rem;
         margin: 0 auto;
     }
 
     &__text-box {
         text-align: center;
+    }
+
+    &__cards-box {
+        display: flex;
     }
 
 }

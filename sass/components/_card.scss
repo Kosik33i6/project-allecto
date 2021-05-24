@@ -1,0 +1,50 @@
+.card-about {
+    padding: 2rem;
+    min-height: 40rem;
+
+    &__inner {
+        text-align: center;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__icon-box {
+        width: 16rem;
+        height: 16rem;
+        margin: 0 auto;
+        background-color: $color-secondary;
+        border-radius: 50%;
+        display: flex;
+        transition: all .4s ease;
+    }
+
+    &__icon {
+        margin: auto;
+        font-size: 5rem;
+        color: $color-text-2;
+        transition: all .4s ease;
+    }
+
+    &__text-box {
+        flex-basis: 100%;
+    }
+
+    &__title {
+        font-size: 3rem;
+    }
+
+    // &__description {
+    //     font-size: 2rem;
+    // }
+
+    &:hover &__icon-box {
+        background-color: $color-primary;
+        transform: scale(1.05);
+        box-shadow: 0 .5rem 1rem rgba($color-black, .4);
+    }
+
+    &:hover &__icon {
+        color: $color-text-1;
+    }
+}
