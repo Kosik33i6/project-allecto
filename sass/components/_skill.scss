@@ -1,0 +1,24 @@
+.skill {
+    display: flex;
+    justify-content: space-around;
+    padding: 10rem 6rem;
+    background-color: $color-secondary;
+
+    &__image-box {
+        flex-basis: 30%;
+    }
+
+    &__image {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    &__text-box {
+        flex-basis: 40%;
+    }
+
+    &--left {
+        flex-direction: row-reverse;
+        background-color: $color-white;
+    }
+}
