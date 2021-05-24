@@ -1,0 +1,18 @@
+.section-about {
+    display: flex;
+
+    &__container {
+        width: 100%;
+    }
+
+    &__row {
+        max-width: 114rem;
+        background-color: red;
+        margin: 0 auto;
+    }
+
+    &__text-box {
+        text-align: center;
+    }
+
+}
