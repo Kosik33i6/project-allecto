@@ -39,6 +39,14 @@
         text-transform: uppercase;
         font-weight: 600;
         color: $color-text-1;
+        border-bottom-width: 3px;
+        border-bottom-color: transparent;
+        border-bottom-style: solid;
+        transition: all .4s ease;
+
+        &:hover {
+            border-bottom-color: $color-primary;
+        }
     }
 
 }
