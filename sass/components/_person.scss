@@ -1,0 +1,39 @@
+.person {
+    background-image: url('../images/image-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__image-box {
+        flex-basis: 30%;
+    }
+
+    &__img {
+        object-fit: cover;
+    }
+
+    &__text-box {
+        flex-basis: 30%;
+    }
+
+    &__heading {
+        font-weight: 300;
+        font-size: 3rem;
+        color: $color-text-1;
+    }
+
+    &__color {
+        color: $color-primary;
+    }
+
+    &__description {
+        text-align: center;
+        margin-top: 3rem;
+        font-size: 2rem;
+        color: $color-text-2;
+    }
+}
