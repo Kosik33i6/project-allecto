@@ -89,3 +89,54 @@
         flex-basis: 80%;
     }
 }
+
+.card-pricing {
+    flex-basis: 23.5%;
+    background-color: $color-white;
+    border-radius: 7px;
+
+    &__inner {}
+
+    &__price-box {
+        padding: 6rem 2rem;
+        border-bottom: 2px solid lighten($color: $color-text-2, $amount: 15%);
+    }
+
+    &__price {
+        margin: 1rem;
+        font-size: 5rem;
+        font-weight: 300;
+        color: $color-primary;
+    }
+
+    &__paragraph {
+        font-size: 2rem;
+        color: lighten($color: $color-text-2, $amount: 15%);
+    }
+
+    &__text-box {
+        padding: 2rem;
+        margin: 3.5rem 0;
+    }
+
+    &__btn-box {}
+
+    &__btn {
+        display: flex;
+        padding: .5rem 2rem;
+        line-height: 7rem;
+        width: 100%;
+        background-color: $color-primary;
+        font-size: 1.8rem;
+        letter-spacing: 3.5px;
+        font-weight: 600;
+        color: $color-text-1;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    &__icon {
+        margin-left: auto;
+        line-height: 7rem;
+    }
+}
