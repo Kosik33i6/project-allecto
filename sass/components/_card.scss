@@ -48,6 +48,12 @@
 .card-services {
     padding: 3rem;
     flex-basis: 50%;
+    border-radius: 1rem;
+    transition: all .3s ease;
+
+    &:hover {
+        box-shadow: 0 1rem 2rem rgba($color-black, .3);
+    }
 
     &__inner {
         display: flex;
@@ -61,11 +67,22 @@
         border-radius: 50%;
         display: flex;
         background-color: $color-white;
+        transition: all .3s ease;
+
+        &:hover {
+            background-color: $color-primary;
+            transform: scale(1.1);
+        }
     }
 
     &__icon {
         font-size: 3.5rem;
         color: $color-primary;
+        transition: all .3s ease;
+    }
+
+    &__icon-box:hover &__icon {
+        color: $color-white;
     }
 
     &__text-box {
