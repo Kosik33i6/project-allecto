@@ -44,6 +44,10 @@ html {
     font-size: 4.5rem;
     font-weight: 400;
     color: $color-text-2;
+
+    &--template {
+        color: $color-text-1;
+    }
 }
 
 .description {

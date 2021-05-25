@@ -108,4 +108,40 @@
         display: flex;
         justify-content: space-between;
     }
+
+    &__world {
+        height: 70vh;
+        padding: 8rem;
+        background-image: url('../images/map.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 95%;
+        position: relative;
+    }
+
+    &__world-description-box {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        max-width: 40%;
+        transform: translateY(-50%);
+    }
+
+    &__template {
+        height: 65vh;
+        background-image: url('../images/image-2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+
+    &__template-box {
+        width: 60%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
 }

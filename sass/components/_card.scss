@@ -94,12 +94,11 @@
     flex-basis: 23.5%;
     background-color: $color-white;
     border-radius: 7px;
-
-    &__inner {}
+    overflow: hidden;
 
     &__price-box {
         padding: 6rem 2rem;
-        border-bottom: 2px solid lighten($color: $color-text-2, $amount: 15%);
+        border-bottom: 2px solid lighten($color: $color-text-2, $amount: 25%);
     }
 
     &__price {
@@ -111,15 +110,13 @@
 
     &__paragraph {
         font-size: 2rem;
-        color: lighten($color: $color-text-2, $amount: 15%);
+        color: lighten($color: $color-text-2, $amount: 25%);
     }
 
     &__text-box {
         padding: 2rem;
         margin: 3.5rem 0;
     }
-
-    &__btn-box {}
 
     &__btn {
         display: flex;
